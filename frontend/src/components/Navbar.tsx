@@ -38,7 +38,7 @@ const Navbar = () => {
         <RxHamburgerMenu />
       </div>
       <div className="hidden md:block">
-        <SolidButton title="button" />
+        <SolidButton title="Login" link="/" />
       </div>
     </div>
   );
