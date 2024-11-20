@@ -15,12 +15,12 @@ const LatestEpisode = () => {
         <h2 className="text-3xl md:text-[44px] font-semibold leading-snug text-primary">All of our latest episodes</h2>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 items-start gap-y-8">
-        <EpisodeCard image={img1} category="Fashion" title="Ep 6: Data-driven marketing and sales with Dana White" date="September 4, 2024" time="30min" />
-        <EpisodeCard image={img2} category="Fashion" title="Ep 5: Growing your social media presence" date="September 4, 2024" time="27min" />
-        <EpisodeCard image={img3} category="Fashion" title="Ep 4: How John went from employee to CEO in 8 weeks" date="September 4, 2024" time="40min" />
-        <EpisodeCard image={img4} category="Technology" title="Ep 3: Should I raise money for my startup, or not?" date="September 4, 2024" time="45min" />
-        <EpisodeCard image={img5} category="Fashion" title="Ep 2: Getting the first 100 customers for your business" date="September 4, 2024" time="20min" />
-        <EpisodeCard image={img6} category="Technology" title="Ep 1: How to build a world-class business brand" date="September 4, 2024" time="16min" />
+        <EpisodeCard image={img1} category="Fashion" title="Ep 6: Data-driven marketing and sales with Dana White" date="September 4, 2024" time="30min" name="Rob Dial" />
+        <EpisodeCard image={img2} category="Fashion" title="Ep 5: Growing your social media presence" date="September 4, 2024" time="27min" name="Rob Dial" />
+        <EpisodeCard image={img3} category="Fashion" title="Ep 4: How John went from employee to CEO in 8 weeks" date="September 4, 2024" time="40min" name="Rob Dial" />
+        <EpisodeCard image={img4} category="Technology" title="Ep 3: Should I raise money for my startup, or not?" date="September 4, 2024" time="45min" name="Rob Dial" />
+        <EpisodeCard image={img5} category="Fashion" title="Ep 2: Getting the first 100 customers for your business" date="September 4, 2024" time="20min" name="Rob Dial" />
+        <EpisodeCard image={img6} category="Technology" title="Ep 1: How to build a world-class business brand" date="September 4, 2024" time="16min" name="Rob Dial" />
       </div>
       <div className="flex justify-center pt-8">
         <SolidButton title="View All Episodes" />

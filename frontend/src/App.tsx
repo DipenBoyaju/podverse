@@ -3,6 +3,7 @@ import RootLayout from "./layout/RootLayout";
 import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import Episode from "./pages/Episode";
+import SingleCategory from "./pages/SingleCategory";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -13,7 +14,8 @@ const App = () => {
         children: [
           { index: true, element: <Home /> },
           { path: "/episode", element: <Episode /> },
-          { path: "/contactus", element: <ContactUs /> }
+          { path: "/contactus", element: <ContactUs /> },
+          { path: "/cat", element: <SingleCategory /> }
         ]
       }
     ],

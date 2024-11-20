@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom"
 
 type Props = {
   cat: string
@@ -5,8 +6,9 @@ type Props = {
 }
 
 const CategoryCard = ({ cat, title }: Props) => {
+  const nav = useNavigate();
   return (
-    <div className="w-full relative rounded-lg overflow-hidden group">
+    <div className="w-full relative rounded-lg overflow-hidden group" onClick={() => nav('/cat')}>
       <div className="w-full h-full bg-black/15 absolute"></div>
       <img src={cat} alt="" className="group-hover:scale-125 transition-all duration-1000 cursor-pointer" />
       <div className="flex justify-center">

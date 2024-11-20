@@ -8,14 +8,15 @@ type Props = {
   title: string
   date: string
   time: string
+  name?: string
 }
 
-const EpisodeCard = ({ image, category, title, date, time }: Props) => {
+const EpisodeCard = ({ image, category, title, date, time, name }: Props) => {
   return (
     <div className="flex flex-col gap-1 group cursor-pointer">
       <div className="rounded-md overflow-hidden relative">
-        <img src={image} alt="" className="group-hover:scale-125 transition-all duration-1000" />
-        <p className="absolute bottom-8 left-5 text-white">Rob Dial</p>
+        <img src={image} alt="" className="group-hover:scale-125 transition-all duration-1000 w-full" />
+        <p className="absolute bottom-8 left-5 text-white">{name}</p>
         <div className="absolute z-10 flex items-center justify-center top-36 opacity-0 w-full group-hover:opacity-100 transition-all duration-500 translate-y-10 group-hover:translate-y-0">
           <RoundedButton title="Listen Now" icon={playicon} />
         </div>
