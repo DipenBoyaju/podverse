@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ContactUs from "./pages/ContactUs";
 import Episode from "./pages/Episode";
 import SingleCategory from "./pages/SingleCategory";
+import SingleEpisode from "./pages/SingleEpisode";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -15,7 +16,8 @@ const App = () => {
           { index: true, element: <Home /> },
           { path: "/episode", element: <Episode /> },
           { path: "/contactus", element: <ContactUs /> },
-          { path: "/cat", element: <SingleCategory /> }
+          { path: "/cat", element: <SingleCategory /> },
+          { path: "/episodes", element: <SingleEpisode /> }
         ]
       }
     ],
