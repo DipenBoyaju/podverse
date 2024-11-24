@@ -15,7 +15,7 @@ const Hero = ({ bg, hero1, hero2, hero3, videoSrc }: Props) => {
     <div className='w-full h-full bg-primary' style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="pb-20">
         <div className="w-full h-full relative object-cover">
-          <div className="mx-auto h-full top-28 lg:pt-40 text-white grid lg:grid-cols-2 gap-10 lg:px-24 px-5">
+          <div className="mx-auto h-full pt-36 lg:pt-40 text-white grid lg:grid-cols-2 gap-10 lg:px-24 px-5">
             <div className="flex flex-col">
               <h1 className='font-poppins text-[40px] leading-tight lg:text-[54px] font-semibold lg:leading-[80px]'>Launch your podcast website with Castifye.</h1>
               <p className="font-poppins pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu urna, quam adipiscing eu tincidunt.</p>
