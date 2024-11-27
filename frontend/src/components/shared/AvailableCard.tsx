@@ -5,7 +5,7 @@ type Props = {
 
 const AvailableCard = ({ image, title }: Props) => {
   return (
-    <div className="flex gap-3 items-center">
+    <div className="flex lg:flex-nowrap text-center lg:text-left flex-wrap gap-3 items-center">
       <div className="">
         <img src={image} alt="" />
       </div>

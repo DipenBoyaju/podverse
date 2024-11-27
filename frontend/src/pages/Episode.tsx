@@ -10,7 +10,7 @@ import CategoryTitle from "../components/shared/CategoryTitle"
 const Episode = () => {
   return (
     <div>
-      <CategoryTitle image={herobg} title="Listen to the story behind <br />the headlines of today" sub="Wave goodbye to tedious reports. Our new project management dashboards are easy to build and use, boost visibility, and offer instant actionable insights." />
+      <CategoryTitle image={herobg} title="Listen to the story behind the headlines of today" sub="Wave goodbye to tedious reports. Our new project management dashboards are easy to build and use, boost visibility, and offer instant actionable insights." />
       <div className="relative mx-5 lg:mx-24 mb-16">
         <div className="absolute w-full top-1/2 transform -translate-y-1/2 z-50">
           <Available />
